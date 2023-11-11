@@ -8,10 +8,20 @@
     <Title>Query.Pagination</Title>
     <Version>1.0.0</Version>
     <Authors>dawidflorian</Authors>
+    <Description>DF.Query.Pagination is a library that provides easy pagination handling in .NET applications.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/git-df/MyNugetPackages/tree/master/DF.Query.Pagination</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
