@@ -6,7 +6,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>DF.Query.Pagination</PackageId>
     <Title>Query.Pagination</Title>
-    <Version>1.0.0</Version>
+    <Version>2.1.0</Version>
     <Authors>dawidflorian</Authors>
     <Description>DF.Query.Pagination is a library that provides easy pagination handling in .NET applications.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
