@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>DF.Query.Sorting</PackageId>
+		<Title>Query.Sorting</Title>
+		<Version>2.1.0</Version>
+		<Authors>dawidflorian</Authors>
+		<Description>DF.Query.Sorting is a library that provides easy sorting handling in .NET applications.</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/git-df/MyNugetPackages/tree/master/DF.Query.Pagination</RepositoryUrl>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Update="README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+	
+	
+</Project>
